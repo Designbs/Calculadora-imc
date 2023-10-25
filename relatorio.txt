@@ -1,0 +1,17 @@
+**Introdução:**
+O Índice de Massa Corporal (IMC) é uma medida amplamente usada para avaliar a relação entre o peso e a altura de uma pessoa, a fim de determinar se a pessoa está em um peso saudável. Este relatório tem como objetivo explicar como foi desenvolvido um programa em Python para calcular o IMC, bem como sua classificação em categorias de acordo com as diretrizes da Organização Mundial da Saúde (OMS).
+
+**Métodos:**
+O programa Python criado para calcular o IMC consiste em duas funções principais:
+
+1. `calcular_imc(peso, altura)`: Esta função recebe o peso (em quilogramas) e a altura (em metros) como entrada e calcula o IMC usando a fórmula IMC = peso / (altura^2).
+
+2. `classificar_imc(imc)`: Esta função classifica o IMC calculado em categorias com base nas recomendações da OMS.
+
+O programa solicita que o usuário insira seu peso e altura, calcula o IMC e, em seguida, classifica o IMC em uma categoria (abaixo do peso, peso normal, sobrepeso, obesidade grau I, obesidade grau II ou obesidade grau III).
+
+**Resultados:**
+Os resultados do programa são exibidos na forma do IMC calculado e sua classificação de acordo com as categorias da OMS. Isso permite que o usuário compreenda imediatamente a situação de seu peso e saúde.
+
+**Conclusão:**
+O IMC é uma ferramenta amplamente reconhecida para avaliar a saúde com base no peso e altura de uma pessoa. No entanto, é importante ressaltar que o IMC tem algumas limitações, uma vez que não leva em consideração outros fatores importantes, como a composição corporal, a distribuição de gordura e a massa muscular. Portanto, o IMC deve ser considerado como uma avaliação inicial da saúde, e consultas com profissionais de saúde são essenciais para uma avaliação completa.
